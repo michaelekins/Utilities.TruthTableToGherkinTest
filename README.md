@@ -11,9 +11,9 @@ example whenStatement (define this in the code):
 >      "When I try to fit the shape in the hole"
  example csv file:
 >      the shape,the colour,the hole,,shape fits,the colour
->      a square, red, a square,,true, irrelevant
->      a square,red,a circle,, false, irrelevant
->      a square, red, a triangle,,false, irrelevant
+>      a square,red,a square,,true,irrelevant
+>      a square,red,a circle,, false,irrelevant
+>      a square,red,a triangle,,false,irrelevant
 >      ...
 
  example output:
