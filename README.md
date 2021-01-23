@@ -1,5 +1,7 @@
 # Utilities.TruthTableToGherkinTest
 
+Download installer from [www.michaelekins.co.uk](https://www.michaelekins.co.uk/projects.html#gherkinTestFromTruthTable)
+
 Structure of csv must be:
 > ""Header1","Header2","Header3","Header4","Header5","Header6"
 > "Given1Statement","Given2Statement","Given3Statement",,"Then1Statement","Then2Statement","Then3Statement"
