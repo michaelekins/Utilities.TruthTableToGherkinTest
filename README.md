@@ -1,3 +1,5 @@
+<img src="/TruthTableToGherkinTest/gherkinTestFromTruthTableLogo.ico"></img>
+
 # Utilities.TruthTableToGherkinTest
 
 Download installer from [www.michaelekins.co.uk](https://www.michaelekins.co.uk/projects.html#gherkinTestFromTruthTable)
