@@ -20,14 +20,14 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\Utilities\Truth Table To Gherkin Test
 DisableProgramGroupPage=yes
-LicenseFile=C:\Source\Other\Utilities.TruthTableToGherkinTest\LICENSE
+LicenseFile={#SourcePath}..\LICENSE
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 OutputBaseFilename=TruthTableToGherkinTestInstaller
-SetupIconFile="C:\Source\Other\Utilities.TruthTableToGherkinTest\TruthTableToGherkinTest\gherkinTestFromTruthTableLogo.ico"
+SetupIconFile="{#SourcePath}..\TruthTableToGherkinTest\gherkinTestFromTruthTableLogo.ico"
 VersionInfoVersion=1.0.0.0
 
 [Languages]
@@ -37,8 +37,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Source\Other\Utilities.TruthTableToGherkinTest\TruthTableToGherkinTest\bin\Release\netcoreapp3.1\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Source\Other\Utilities.TruthTableToGherkinTest\TruthTableToGherkinTest\bin\Release\netcoreapp3.1\LumenWorks.Framework.IO.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\TruthTableToGherkinTest\bin\Release\netcoreapp3.1\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#SourcePath}..\TruthTableToGherkinTest\bin\Release\netcoreapp3.1\LumenWorks.Framework.IO.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
